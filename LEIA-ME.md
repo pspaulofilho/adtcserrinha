@@ -9,7 +9,7 @@ Abra `index.html` no navegador para acessar o site. Não é necessário instalar
 
 A página inicial apresenta mapa, endereço e Instagram com destaque. Todas as páginas internas têm endereço com link para o Google Maps e Instagram em um rodapé discreto.
 
-O conteúdo original foi preservado, incluindo a agenda de 19 a 25 de outubro de 2026. Para atualizar a agenda, altere os dados em `js/script.js`, a tabela em `html/index.html` e o cartaz correspondente em `imagens/`.
+A agenda foi atualizada conforme o cartaz de 26 de outubro a 1º de novembro de 2026. Para atualizar a agenda, altere os dados em `js/script.js`, a tabela em `html/index.html` e o cartaz correspondente em `imagens/`.
 
 A plataforma de ensino abre o endereço original em nova aba. A página de rádio apresenta a frequência FM 102.3 informada no arquivo original; não há endereço de transmissão de áudio no material enviado. O mapa e os serviços externos precisam de conexão com a internet.
 
