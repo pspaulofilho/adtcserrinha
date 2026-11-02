@@ -4,38 +4,38 @@
 const conteudo = {
   programacao: [
   {
-    "dia": "Segunda-feira · 26/10",
+    "dia": "Segunda-feira · 02/11",
     "encontro": "Consagração",
     "horario": "07:30"
   },
   {
-    "dia": "Segunda-feira · 26/10",
-    "encontro": "Círculo de oração + ensaio",
+    "dia": "Segunda-feira · 02/11",
+    "encontro": "Círculo de oração",
+    "horario": "19:30"
+  },
+  {
+    "dia": "Terça-feira · 03/11",
+    "encontro": "Culto de Ceia na sede",
     "horario": "19:00"
   },
   {
-    "dia": "Terça-feira · 27/10",
-    "encontro": "Culto de doutrina na sede",
-    "horario": "19:00"
-  },
-  {
-    "dia": "Quinta-feira · 29/10",
+    "dia": "Quinta-feira · 05/11",
     "encontro": "Círculo de oração na sede",
     "horario": "14:00"
   },
   {
-    "dia": "Quinta-feira · 29/10",
+    "dia": "Quinta-feira · 05/11",
     "encontro": "Culto de doutrina",
     "horario": "19:15"
   },
   {
-    "dia": "Domingo · 01/11",
-    "encontro": "Escola bíblica dominical (EBD)",
+    "dia": "Domingo · 08/11",
+    "encontro": "Escola bíblica dominical",
     "horario": "09:00"
   },
   {
-    "dia": "Domingo · 01/11",
-    "encontro": "Culto de celebração (missão)",
+    "dia": "Domingo · 08/11",
+    "encontro": "Culto de celebração “Família”",
     "horario": "18:00"
   }
 ],
@@ -93,7 +93,7 @@ agendaPosterButton?.addEventListener('click', () => {
  ultimoBotao = agendaPosterButton;
  imagem.src = agendaPosterButton.querySelector('img').src;
  imagem.alt = 'Cartaz da agenda semanal';
- legenda.textContent = 'Agenda semanal · 26 de outubro a 1º de novembro de 2026.';
+ legenda.textContent = 'Agenda semanal · 2 a 8 de novembro de 2026.';
  dialog.showModal();
 });
 if (galeria && conteudo.fotos.length) {
